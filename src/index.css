@@ -1,0 +1,16 @@
+/* Reset — all styling lives in App.css */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color-scheme: light;
+}
+
+#root {
+  height: 100%;
+  min-height: 100vh;
+}
